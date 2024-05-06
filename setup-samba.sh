@@ -12,6 +12,4 @@ read only = no
 writable = yes
 guest ok = no
 browsable = yes
-valid user = $USER
-create mask = 0644
-directory mask = 0644" | sudo tee -a /etc/samba/smb.conf > /dev/null
+valid user = $USER" | sudo tee -a /etc/samba/smb.conf > /dev/null
